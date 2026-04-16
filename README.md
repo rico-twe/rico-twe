@@ -7,7 +7,7 @@
 <!-- ====================== TYPING ANIMATION ====================== -->
 
 <a href="https://ricotwesten.de">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=0078D4&center=true&vCenter=true&width=720&lines=Infrastructure+should+build+itself.;15%2B+years+automating+the+cloud.;Kubernetes+%E2%9C%A6+Terraform+%E2%9C%A6+Azure+%E2%9C%A6+GitOps;Now+teaching+AI+to+run+the+pipelines." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=0078D4&center=true&vCenter=true&width=720&lines=Infrastructure+should+build+itself.;Now+teaching+AI+to+run+the+pipelines.;Azure+%E2%9C%A6+Kubernetes+%E2%9C%A6+Terraform+%E2%9C%A6+GitOps" alt="Typing SVG" />
 </a>
 
 </div>
