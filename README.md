@@ -51,7 +51,7 @@ Projects I contributed to or helped shape as an idea partner.
 
 ### [MoE Sovereign](https://github.com/h3rb3rn/moe-sovereign) — Self-Hosted Multi-Model AI Orchestrator
 
-> I helped shape the concept early on and contribute where I can.
+> **Role:** Architecture · Feature Design · Use Cases
 
 A production-grade, open-source AI orchestration platform that routes queries across local language models using a **Mixture-of-Experts** architecture — fully self-hosted, no cloud calls, no vendor lock-in.
 
