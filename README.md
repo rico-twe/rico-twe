@@ -45,6 +45,28 @@ Helping engineers move into platform and SRE roles. Talking to people and sharin
 
 ---
 
+## 🔗 Project References
+
+Projects I contributed to or helped shape as an idea partner.
+
+### [MoE Sovereign](https://github.com/h3rb3rn/moe-sovereign) — Self-Hosted Multi-Model AI Orchestrator
+
+> **Role:** Contributor & Ideengeber
+
+A production-grade, open-source AI orchestration platform that routes queries across local language models using a **Mixture-of-Experts** architecture — fully self-hosted, no cloud calls, no vendor lock-in.
+
+**What makes it interesting from a DevOps/platform perspective:**
+- 7-stage pipeline: semantic caching → planning → expert routing → MCP tools → GraphRAG → synthesis → knowledge ingestion
+- VRAM-aware scheduling across inference nodes
+- OpenAI- & Anthropic-compatible API — drop-in sovereign alternative to cloud AI providers
+- One-line installer, Docker Compose / LXC / Kubernetes-ready
+
+**Stack:** Python · Neo4j (GraphRAG) · ChromaDB · Valkey · Kafka · PostgreSQL · LangGraph · Docker
+
+📄 [Docs](https://docs.moe-sovereign.org) · 🔗 [GitHub](https://github.com/h3rb3rn/moe-sovereign)
+
+---
+
 ## 🎤 Let's Talk About
 
 - 🚀 **DevOps & Platform Engineering**
