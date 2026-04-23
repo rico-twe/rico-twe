@@ -65,6 +65,24 @@ A production-grade, open-source AI orchestration platform that routes queries ac
 
 📄 [Docs](https://docs.moe-sovereign.org) · 🔗 [GitHub](https://github.com/h3rb3rn/moe-sovereign)
 
+### [Scribably](https://github.com/rico-twe/scribably) — Browser-Native Voice Transcription & Prompt Pipeline
+
+> **Role:** Architecture · Product Design · Full-Stack
+
+A privacy-first, open-source transcription app that runs entirely in the browser — no backend, no server, no account required. Audio flows through a configurable three-stage pipeline (STT → clean → prompt), with every API call going directly from the browser to user-supplied keys (BYOK).
+
+**What makes it interesting from a privacy/architecture perspective:**
+- Zero-backend design: all state lives in localStorage / IndexedDB; no content ever touches a Scribably server
+- Dual provider registry (STT + LLM) — swap Groq Whisper, OpenAI Whisper, Anthropic, or any OpenAI-compatible endpoint without changing app code
+- On-device Whisper via WebGPU/WASM — 100% local transcription as an opt-in provider, no cloud call required
+- Config exported as Base64 / QR code for zero-friction device transfer
+- Browser extension with push-to-talk overlay — inserts transcribed text into any focused input field, system-wide
+- Plugin API v2 with signed manifests and sandboxed Web Workers for community and pro plugins (voice → ticket, voice → commit, podcast pack, IDE dictation bridge)
+
+**Stack:** React · TypeScript · Vite · Groq Whisper · OpenAI Whisper · Anthropic SDK · IndexedDB · Umami Analytics · Docker · Helm
+
+📄 Docs · 🔗 GitHub
+
 ---
 
 ## 🎤 Let's Talk About
