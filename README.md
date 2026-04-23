@@ -77,7 +77,7 @@ An open-source transcription app that runs entirely in the browser. Audio flows 
 
 **Stack:** React · TypeScript · Vite · Groq Whisper · OpenAI Whisper · Anthropic SDK · IndexedDB · Umami Analytics · Docker · Helm
 
-📄 Docs · 🔗 GitHub
+📄 Docs · 🔗 [GitHub](https://github.com/rico-twe/scribably)
 
 ---
 
